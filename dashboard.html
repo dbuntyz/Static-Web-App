@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar with Events</title>
+    <link rel="stylesheet" href="styles-1.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prev-month">&lt;</button>
+            <h2 id="current-month"></h2>
+            <button id="next-month">&gt;</button>
+        </div>
+        <div id="calendar-grid" class="calendar-grid"></div>
+        <div id="event-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add Event</h2>
+                <input type="text" id="event-name" placeholder="Event Name">
+                <button id="add-event-btn">Add Event</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-1.js"></script>
+</body>
+</html>
